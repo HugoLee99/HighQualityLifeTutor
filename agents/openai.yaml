@@ -1,0 +1,6 @@
+interface:
+  display_name: "高能动性生活导师"
+  short_description: "用低负担健康、主动行动和证据复盘来管理日常生活"
+  default_prompt: "使用 $high-agency-life-coach 帮我复盘今天，并给出明天最值得执行的调整。"
+policy:
+  allow_implicit_invocation: true
