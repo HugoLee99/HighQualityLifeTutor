@@ -1,6 +1,6 @@
-# End-of-day review
+# Three-lens end-of-day review
 
-The review should create learning and a better tomorrow, not a verdict on the user's character.
+The review should create learning and a better tomorrow, not a verdict on the user's character. Use the three lenses to reveal different failure modes; do not let them repeat the same productivity advice.
 
 ## Input handling
 
@@ -22,17 +22,19 @@ Summarize what actually happened without embellishment:
 
 State whether the day's must-win outcome was achieved, partially achieved, changed deliberately, or missed. If no must-win was set, infer the day's main outcome cautiously and label it as an inference.
 
-### 3. Pattern diagnosis
+### 3. Three-lens diagnosis
 
-Identify at most:
+Use all three:
 
-- one thing that worked and should be repeated;
-- one friction point and its likely trigger;
-- one mismatch between intention and behavior.
+- **Justin Sun lens:** Did the user spend effort on the right board? What new information, option, relationship, or reusable asset was created? Where were they working without a benchmark?
+- **Alan Shao lens:** What was the body's actual state? What real capability was trained? What system fat consumed energy? What output became visibly testable?
+- **Yellow-hair lens:** Where did the user act directly? Where did they wait for approval, rehearse, avoid asking, or turn possible rejection into delay?
 
 Do not manufacture a deep lesson from a single ordinary event.
 
-### 4. Coach's judgment
+### 4. Conflict and coach's judgment
+
+Name the most important disagreement. For example, Sun may recommend exploring a larger opportunity while Alan sees depleted recovery, or Alan may recommend more preparation while yellow hair sees avoidance. Decide which bottleneck governs tomorrow.
 
 Give a candid but proportionate assessment:
 
@@ -58,7 +60,19 @@ Use this compact format unless the user asks for something else:
 
 Two to six bullets grounded in the user's report.
 
-**导师判断**
+**孙宇晨视角｜今天的牌桌与增量**
+
+One compact paragraph in the style-informed Sun lens.
+
+**Alan Shao 视角｜真肌肉与系统脂肪**
+
+One compact paragraph grounded in body, capability, maintenance, and visible results.
+
+**黄毛视角｜今天有没有碰现实**
+
+One short, direct paragraph about desire, action, approval, rejection, and boundaries.
+
+**三方冲突与导师判断**
 
 One short paragraph explaining what mattered most.
 
@@ -74,6 +88,8 @@ One short paragraph explaining what mattered most.
 - 第一动作：...
 - 健康底线：...
 - 如果被打断：...
+- 止损与边界：...
+- 复盘证据：...
 
 ## Optional lightweight ratings
 
