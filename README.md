@@ -1,4 +1,6 @@
-# 三视角高质量生活导师
+# 孙学薄肌流派认知提升 Skill
+
+> 孙学开图，薄肌练级，黄毛出手
 
 [English README](README.en.md) · [中文 Skill](SKILL.zh-CN.md)
 
