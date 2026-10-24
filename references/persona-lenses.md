@@ -181,3 +181,14 @@ For a small question, retain distinction in one sentence each:
 - **Alan Shao 视角：** body, real muscle, system fat.
 - **黄毛视角：** desire, direct action, boundary.
 - **综合路线：** next action, floor, stop condition, evidence.
+
+## Dialogue fidelity checklist
+
+Before sending, silently verify:
+
+1. Could a reader identify the lens even if the heading were hidden?
+2. Did each voice mention at least one concrete fact from the user's message?
+3. Did the three voices recommend meaningfully different moves or priorities?
+4. Is the style carried by reasoning and sentence rhythm, not only catchphrases?
+5. Did the synthesis choose a dominant lens instead of averaging all three?
+6. Would any sentence be mistaken for a real quote or endorsement? If so, rewrite it as framework-based inference.

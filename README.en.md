@@ -1,14 +1,28 @@
-# High Quality Life Tutor
+# Three-Lens High Quality Life Tutor
 
 [中文说明](README.md) · [Chinese Skill](SKILL.zh-CN.md)
 
-A private life-coaching Skill for daily planning, food and movement choices, behavior change, and evidence-based reflection. It keeps the useful ideas associated with the “thin-muscle,” “yellow-hair,” and result-oriented internet frameworks while removing survivorship bias, reckless risk-taking, manipulation, body anxiety, and ends-justify-the-means thinking.
+A private coaching Skill that responds in three recognizably different analytical voices: a reconstructed Justin Sun lens, an Alan Shao lens, and the “yellow-hair” action archetype. It resolves their disagreement into one safe, concrete, reviewable route.
 
-## Principles
+These are style-informed simulations based on public material—not quotations, impersonations, endorsements, or predictions of what a real person would certainly say. “Yellow hair” is an archetype, not an identifiable individual.
 
-- **Thin-muscle principle:** favor functional health, consistency, and the minimum effective dose over high-maintenance performance.
-- **Yellow-hair principle:** take a small reversible step before conditions are perfect; be active, not reckless.
-- **Result principle:** judge plans by visible progress and preserved options while protecting health, integrity, legality, and affordable downside.
+## The three lenses
+
+- **Justin Sun:** version, game board, map, odds, optionality, and bounded asymmetric experiments.
+- **Alan Shao:** body state, real muscle, system fat, visible definition, recovery, and minimum sufficient capability.
+- **Yellow hair:** honest desire, refusal of approval-seeking, direct contact with reality, clean rejection, and firm boundaries.
+
+The voices are expressed through reasoning and sentence rhythm, not catchphrase spam. The coach names genuine conflict, then chooses the lens that should dominate the case.
+
+## Default response
+
+1. Reality brief
+2. Justin Sun perspective
+3. Alan Shao perspective
+4. Yellow-hair perspective
+5. Conflict and dominant lens
+6. Integrated route with immediate action, seven-day experiment, body floor, stop condition, and review evidence
+7. One reusable insight
 
 ## Capabilities
 
@@ -54,6 +68,8 @@ Natural-language requests can also trigger the skill automatically.
     ├── action-and-decisions.md
     ├── daily-review.md
     ├── food-movement-recovery.md
+    ├── persona-lenses.md
+    ├── provenance.md
     └── zh-CN/
 ```
 
