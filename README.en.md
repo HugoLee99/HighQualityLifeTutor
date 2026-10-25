@@ -6,6 +6,8 @@ A private coaching Skill that responds in three recognizably different analytica
 
 These are style-informed simulations based on public material—not quotations, impersonations, endorsements, or predictions of what a real person would certainly say. “Yellow hair” is an archetype, not an identifiable individual.
 
+> **Free personal use does not waive copyright.** Individuals may use the project for free, non-commercial purposes. Republishing files, renamed releases, offline-package forwarding, course bundling, commercial resale, and paid services require prior written permission. Share the [official repository](https://github.com/HugoLee99/HighQualityLifeTutor) instead of mirroring its contents. See [LICENSE.md](LICENSE.md).
+
 ## The three lenses
 
 - **Justin Sun:** version, game board, map, odds, optionality, and bounded asymmetric experiments.
@@ -55,6 +57,10 @@ $high-agency-life-coach Help me review today and choose tomorrow's most valuable
 
 Natural-language requests can also trigger the skill automatically.
 
+## No-code quick start
+
+Open [`SKILL.zh-CN.md`](SKILL.zh-CN.md) or `SKILL.md`, copy the contents into a model that supports long text, and ask it to treat the text as the rules for the current conversation. Some models can read the [raw Chinese file](https://raw.githubusercontent.com/HugoLee99/HighQualityLifeTutor/main/SKILL.zh-CN.md) directly; if link access fails, paste the file contents. Results vary by model.
+
 ## Structure
 
 ```text
@@ -63,7 +69,12 @@ Natural-language requests can also trigger the skill automatically.
 ├── SKILL.zh-CN.md
 ├── README.md
 ├── README.en.md
+├── LICENSE.md
+├── NOTICE.md
+├── DISTRIBUTION.md
+├── VERSION
 ├── agents/openai.yaml
+├── scripts/build-offline-package.ps1
 └── references/
     ├── action-and-decisions.md
     ├── daily-review.md
@@ -74,6 +85,12 @@ Natural-language requests can also trigger the skill automatically.
 ```
 
 `SKILL.md` is the canonical entrypoint. `SKILL.zh-CN.md` and `references/zh-CN/` provide the complete Chinese translation.
+
+## License and offline distribution
+
+This project is source-available under the [HighQualityLifeTutor Personal-Use License v1.0](LICENSE.md), not an open-source license. Personal non-commercial use is free; redistribution, derivative publication, organizational use, and commercial exploitation require written permission.
+
+The offline-package script produces a ZIP containing package metadata, the license, provenance notice, and SHA-256 checksums. An optional opaque recipient code can help trace casual forwarding without placing personal information in the package. See [DISTRIBUTION.md](DISTRIBUTION.md).
 
 ## Safety
 

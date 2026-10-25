@@ -8,6 +8,8 @@
 
 > 三种声音均为基于公开材料的风格化框架推演，不代表本人意见，也不会伪造原话、经历或背书。“黄毛”是行动原型，不指向某个可识别的真人。
 
+> **免费个人使用不等于放弃版权。** 本项目允许个人免费、非商业使用，但未经授权不得转载文件、改名发布、转发线下包、课程打包、商业售卖或提供收费服务。请分享[官方仓库链接](https://github.com/HugoLee99/HighQualityLifeTutor)，不要搬运仓库内容。完整条款见 [LICENSE.md](LICENSE.md)。
+
 ## 三个真正不同的视角
 
 - **孙宇晨视角：**看版本、牌桌、地图、赔率和选择权。先扩大样本，再用下行受限的小实验购买信息。
@@ -64,6 +66,16 @@ $high-agency-life-coach 帮我安排今天。我需要完成……
 帮我复盘今天：昨晚睡了六小时，午饭随便吃了，下午完成了项目初稿，但一直没有运动……
 ```
 
+## 普通用户快速接入
+
+不懂 GitHub 或不会安装 Skill，也可以打开 [`SKILL.zh-CN.md`](SKILL.zh-CN.md)，把全文复制给支持长文本的模型，再输入：
+
+```text
+请把上面的内容作为本次对话的行为规则，并按照三视角协议分析我接下来的问题。
+```
+
+部分模型可以直接读取[中文版原始链接](https://raw.githubusercontent.com/HugoLee99/HighQualityLifeTutor/main/SKILL.zh-CN.md)；如果读取失败，以复制全文的方式为准。不同模型的理解和执行效果可能不同。
+
 ## 一日复盘输出
 
 默认会生成：
@@ -86,8 +98,14 @@ $high-agency-life-coach 帮我安排今天。我需要完成……
 ├── SKILL.zh-CN.md
 ├── README.md
 ├── README.en.md
+├── LICENSE.md
+├── NOTICE.md
+├── DISTRIBUTION.md
+├── VERSION
 ├── agents/
 │   └── openai.yaml
+├── scripts/
+│   └── build-offline-package.ps1
 └── references/
     ├── action-and-decisions.md
     ├── daily-review.md
@@ -106,6 +124,24 @@ $high-agency-life-coach 帮我安排今天。我需要完成……
 - `SKILL.zh-CN.md`：完整中文翻译。
 - `references/`：仅在对应场景中按需读取的详细规则。
 - `agents/openai.yaml`：Codex 中的显示名称、简介和默认调用提示。
+- `LICENSE.md`：免费个人使用与禁止转载、商业再分发的正式许可。
+- `NOTICE.md`：官方来源、版权与版本核验说明。
+- `scripts/build-offline-package.ps1`：生成带版本、可选领取码和 SHA-256 校验的线下包。
+
+## 版权、防转载与线下包
+
+- **允许：**个人免费、非商业地安装、运行、备份和私下修改；分享官方仓库链接；依法使用模型生成的普通回答。
+- **未经授权禁止：**镜像转载、复制文件后二次发布、改名包装、转发线下包、制作衍生 Skill 对外传播、课程或会员打包、商业售卖、SaaS/API/机器人收费提供。
+- **公开仓库的现实边界：**GitHub 公开仓库仍可被查看和 Fork，任何技术方案都无法保证内容不被复制。许可、Git 历史、版本记录和文件哈希用于明确权利边界并增强溯源证据。
+- **需要其他授权：**通过官方 GitHub 账号联系作者，取得书面许可。
+
+制作线下包：
+
+```powershell
+.\scripts\build-offline-package.ps1 -RecipientCode "R7K2M9"
+```
+
+请使用不含姓名、邮箱或手机号的匿名领取码，并把领取码与接收人的对应关系保存在仓库之外。详细说明见 [DISTRIBUTION.md](DISTRIBUTION.md)。
 
 ## 安全边界
 
